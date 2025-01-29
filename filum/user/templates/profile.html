@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% comment %} <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+<script src="bootstrap/js/bootstrap.bundle.js"></script> {% endcomment %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+
+{% block title %}
+    Profile
+{% endblock title %}
+
+
+{% block titleinpage %}
+    Profile
+{% endblock titleinpage %}
+
+{% block rightsidebar %}
+    {% comment %} <button type="button" class="btn btn-dark btn-sm">Register</button> {% endcomment %}
+    <button class= "login">Log in</button>
+
+{% endblock rightsidebar %}
+
+
+
+
+{% block content %}
+    This is your Profile
+
+
+
+{% endblock content %}
+
+

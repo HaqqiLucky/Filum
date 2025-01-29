@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock title %}
+
+{% block titleinpage %}
+    Hi New Filumate
+{% endblock titleinpage %}
+
+{% block content %}
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Submit</button>
+{% endblock content %}
+

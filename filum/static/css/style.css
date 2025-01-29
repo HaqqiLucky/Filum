@@ -1,0 +1,99 @@
+body{
+    background-color: #F7F7F8;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    /* background-color: #FAF6F6; */
+}
+/* viewport artinya area yang terlihat oleh user saat muncul di hp masing masing */
+/* di viewport ini ada vh (height), wh(width), vmin/max */
+/* kalo horizontal pake display : flex , kalo vertikal gak usah tambah apapa */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    padding: 20px;
+    /* margin-top: 50vh; */
+    margin-left: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    background-color: #FFFAFA;
+    position: fixed;
+    height: 100vh;
+}
+nav a {
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    color:black;
+    display: flex;
+    /* margin-bottom: 70px; */
+}
+
+nav a:hover{
+    background-color: #ddd;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+
+}
+
+
+
+
+.homepost {
+    background-color: #ffffff;
+    width: 50vw;
+    display: flex; /*ini peting bnaget buat marhinnn*/
+    margin-left : 50vh;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+
+}
+
+.homepost h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleinpage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleinpage h2{
+    display: flex;
+    justify-content: center;
+    /* font-size: 50px; */
+}
+
+.right-sidebar{
+    display: flex;
+    position: fixed;
+    right: 0px;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #F7F7F8;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.login{
+    color: #ffffff;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-top: 3vh;
+}
