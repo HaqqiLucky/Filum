@@ -1,0 +1,36 @@
+# Bytecode Python
+*.pyc
+__pycache__/
+
+# Virtual environment (pastikan ini sesuai dengan nama venv kamu)
+venv/
+.venv/
+
+# File database (jika pakai SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+# File konfigurasi sensitif
+.env
+
+# Migrations cache
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# File log
+*.log
+logs/
+*.out
+
+# File statis yang dikumpulkan
+staticfiles/
+
+# Media uploads (opsional, kalau upload ke cloud lebih baik)
+media/
+
+# File cache dan temp
+*.swp
+*.swo
+*.DS_Store
+*.bak
+*.tmp
